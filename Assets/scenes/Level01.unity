@@ -375,7 +375,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1216087362}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -14.799672, y: -4.5817, z: 0}
+  m_LocalPosition: {x: -14.86, y: -4.574, z: 0}
   m_LocalScale: {x: 0.68390024, y: 0.68390024, z: 0.68390024}
   m_Children:
   - {fileID: 650007400}
@@ -441,12 +441,13 @@ MonoBehaviour:
   horizontalSpeed: 5
   jumpSpeed: 600
   feet: {fileID: 650007400}
-  feetWidht: 0.41
+  feetWidht: 0.3
   feetHeight: 0.1
   isGrounded: 0
   whatIsGround:
     serializedVersion: 2
     m_Bits: 512
+  delayForDoubleJump: 0.2
 --- !u!1 &1351718259
 GameObject:
   m_ObjectHideFlags: 0
