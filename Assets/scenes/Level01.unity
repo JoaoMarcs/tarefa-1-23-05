@@ -339,7 +339,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 137, y: -15.951}
+  m_AnchoredPosition: {x: 137, y: -15.950989}
   m_SizeDelta: {x: 160, y: 48.098}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &178608341
@@ -1441,6 +1441,12 @@ MonoBehaviour:
   playerPrefab: {fileID: 1839930415635682, guid: 281987e859aee564dbf6ecebb378cf72,
     type: 2}
   timeToRespawn: 2
+  ui:
+    hud:
+      txtCoinCount: {fileID: 178608341}
+      txtLifeCount: {fileID: 648216368}
+      txtTimer: {fileID: 2135075053}
+      hudPanel: {fileID: 1663262934}
 --- !u!4 &1250506083
 Transform:
   m_ObjectHideFlags: 0
