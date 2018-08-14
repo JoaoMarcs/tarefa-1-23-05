@@ -128,12 +128,24 @@ public class PlayerCtrl : MonoBehaviour {
 	}
 
 	void OnTriggerEnter2D(Collider2D other){
-		if (other.gameObject.CompareTag("Coin")){
+		
+		switch(other.gameObject.tag){
+			case "Coin":
 			AudioManager.instance.PlayCoinPickupSound(other.gameObject);
 			SFXManager.instance.ShowCoinParticles(other.gameObject);
 			GM.instance.IncrementCoinCount();
 			Destroy(other.gameObject);
-		}
-	}
+			break;
 
+			case "Finish":
+			GM.instance.LevelComplete();
+
+
+			break;
+		}
+
+	}
+			
 }
+
+
