@@ -1,4 +1,4 @@
-﻿using System.Collections;
+﻿ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System;
@@ -8,4 +8,5 @@ using System;
 public class AudioSFX  {
 
    public AudioClip coinPickup;
+   public AudioClip fail;
 }

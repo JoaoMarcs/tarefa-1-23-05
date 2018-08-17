@@ -25,4 +25,8 @@ public class AudioManager : MonoBehaviour {
 	}
 
 
+	public void PlayFailSound(GameObject obj){
+		 AudioSource.PlayClipAtPoint(audioSFX.fail, obj.transform.position);
+	}
+
 }
