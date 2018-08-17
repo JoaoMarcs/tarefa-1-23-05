@@ -19,7 +19,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4305811539989540}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: MonsterPatrol
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39,7 +39,7 @@ GameObject:
   - component: {fileID: 50627060415876848}
   - component: {fileID: 58993460464523508}
   - component: {fileID: 114123350440989746}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Monster
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54,7 +54,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4250975518569558}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Pos2
   m_TagString: Untagged
   m_Icon: {fileID: -3839803715187477772, guid: 0000000000000000d000000000000000, type: 0}
@@ -69,7 +69,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4711023094123530}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Pos1
   m_TagString: Untagged
   m_Icon: {fileID: -3839803715187477772, guid: 0000000000000000d000000000000000, type: 0}
